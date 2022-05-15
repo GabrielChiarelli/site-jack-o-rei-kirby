@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    /* background-image: linear-gradient(to bottom, rgb(25, 25, 225), rgb(25, 25, 255)); */
+}
+
+.imagem-topo {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-topo {
+    margin: auto;
+    padding: 0px 20px 50px 20px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+img {
+    z-index: -1;
+}
+
+.sombra {
+    position: relative; 
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.6) inset; 
+}
+
+.texto-topo h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem;
+    /* text-align: center; */
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.texto-topo h1:hover {
+    font-size: 6rem;
+}
+
+.texto-topo p {
+    word-break: normal;
+    line-height: 1.3rem;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.materia-container {
+    padding-bottom: 40px;
+}
+
+.materia-imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.materia-texto {
+    margin: auto;
+    padding: 0px 20px;
+    min-width: 400px;
+    max-width: 1000px;
+
+    text-align: center;
+}
+
+.materia-texto h1 {
+    padding: 10px 0px 15px 0px;
+
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+
+    transition: 0.2s;
+}
+
+.materia-texto h1:hover {
+    font-size: 3rem;
+}
+
+.materia-texto p {
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: white;
+}
+
+footer {
+    border-top: 2px dotted white;
+    padding: 15px;
+
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+
+    transition: 0.2s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
